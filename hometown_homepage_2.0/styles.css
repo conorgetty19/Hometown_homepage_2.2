@@ -1,0 +1,71 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero-image {
+    display: flex;
+    justify-content: center;
+    height: 30vw;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images/sunset2.jpg");
+}
+.hero-text {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-size: 2vw;
+  color: black;
+  text-shadow:black 0px 0px 2px;
+}
+.guide {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.round {
+    border-radius: 50%;
+}
+.plaque {
+    font-size: 3vw;
+    background-color: #Bb783b;
+    background-size: 320px;
+    border-radius: 5px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.side-by-side{
+    display:flex;
+    flex-direction: row;
+    background-color: #Bb783b;
+    justify-content: center;
+    margin: 10px;
+    font-size: 3vw;
+}
+.profile-pic{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.profile-name{
+    margin-top: 0px;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("images/log.jpg");
+    background-repeat: repeat;
+}
+img {
+    width: 100px;
+    border: solid 7px #9b492e;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
